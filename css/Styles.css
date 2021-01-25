@@ -1,0 +1,52 @@
+.rectangle {
+    border-radius: 25px;
+    background: white;
+    padding: 8%;
+    width: 3%;
+    height: 15%;
+    box-shadow: 5px 10px rgb(53, 53, 53);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+* {
+    background: rgb(32, 32, 32);
+    color: white;
+}
+
+#alexa {
+    background-image: url("../assets/images/5eb1556b74bb7d0004ae61b0.png");
+}
+
+#iphone {
+    background-image: url("../assets/images/toppng.com-download-draw-a-iphone-x-799x1595.png")
+}
+
+.link {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin-right: 2%;
+    font-size: larger;
+    text-decoration: none;
+}
+
+.text-container h1 {
+    color: rgba(225,225,225, .1);
+    background-image: url("../assets/images/splotted-background.png");
+    -webkit-background-clip: text;
+    background-position: bottom;
+    background-size: cover;
+    font-weight: 900;
+    animation: animate 5s linear infinite;
+    
+}
+
+@keyframes animate {
+    0% {
+        background-position: bottom;
+    }
+    1% {
+        background-position: top;
+    }
+}
