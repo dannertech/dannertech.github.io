@@ -50,3 +50,23 @@
         background-position: top;
     }
 }
+
+#see-projects-section {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+@media screen and (max-width: 500px){
+    #see-projects-section{
+        flex-direction: column;
+        width: 100%;
+        height: 30%;
+    }
+}
+
+#contact {
+    text-align: center;
+}
+
