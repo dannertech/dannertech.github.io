@@ -52,10 +52,10 @@
 }
 
 #see-projects-section {
-    background-color: white;
+    background-color: black;
     display: flex;
-    flex-direction: row;
-    
+    flex-direction: column;
+
 }
 
 @media screen and (max-width: 500px){
@@ -64,9 +64,114 @@
         width: 100%;
         height: 30%;
     }
+    #see-projects-section img{
+        height: 70%;
+        width: 100%;
+    }
+    .text-container {
+        font-size: 70%;
+    }
+    #button {
+        font-size: 60%;
+    }
+
+    .content_img iframe{ 
+        float: none;
+        width: 100%;
+        margin-bottom: 6%;
+    }
+    .content_img p{
+        margin-top: 10%;
+        line-height: 200%;
+        font-size: 200%;
+    }
+    .content_img img{
+        margin-bottom: 6%;
+    }
+    #About h1{
+        font-size: 250%;
+        margin-bottom: 15%;
+    }
+
+    #About p{
+        font-size: 200%;
+    }
+
+
 }
 
-#contact {
+#Contact {
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
+   
 }
 
+.content_img {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content_img p{
+    line-height: 250%;
+ color: white;
+}
+
+.content_img iframe{
+    float: left;
+}
+
+.content_img img{
+  float: left;
+    width: 60%;
+}
+
+#Contact p{
+  font-size: large;
+}
+
+#About {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+
+
+
+}
+
+#About h1{
+    color: yellow;
+}
+#About h2{
+    color: yellow;
+}
+#About img {
+    height: 20%;
+    width: 20%;
+}
+
+@keyframes float {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-80px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+.avatar {
+    overflow: hidden;
+    transform: translateY(0px);
+    animation: float 6s ease-in-out infinite;
+    margin-top: 12%;
+}
+
+#social-seciton{
+    display: flex;
+    flex-direction: row;
+}
+
+#social-section img {
+    height: 10%;
+    width: 10%;
+}
