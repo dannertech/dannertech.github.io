@@ -58,7 +58,7 @@
 
 }
 
-@media screen and (max-width: 380px){
+@media screen and (max-width: 1200px){
     body{
         background-color: red;
     }
