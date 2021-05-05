@@ -58,7 +58,10 @@
 
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 380px){
+    body{
+        background-color: red;
+    }
     #see-projects-section{
         flex-direction: column;
         width: 100%;
