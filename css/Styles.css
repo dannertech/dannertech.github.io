@@ -58,7 +58,7 @@
 
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 480px){
     #see-projects-section{
         flex-direction: column;
         width: 100%;
